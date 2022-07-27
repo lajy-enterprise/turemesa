@@ -141,7 +141,14 @@ body {
     }
 }
 
+.angosto{
+    max-width: auto;
+}
+
 @media (min-width: 992px) {
+    .angosto{
+        max-width: 133px;
+    }
     .section-cover {
         height: 475px !important;
    }

@@ -70,7 +70,7 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="1.9976415"
-     inkscape:cx="78.09209"
+     inkscape:cx="74.087368"
      inkscape:cy="33.789847"
      inkscape:window-width="1366"
      inkscape:window-height="708"
@@ -84,7 +84,7 @@
      id="g61">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:27.9388px;line-height:1.25;font-family:sans-serif;fill:#167c1e;fill-opacity:1;stroke:#020000;stroke-width:0.5;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke;stroke-linejoin:round;stroke-linecap:round"
+       style="font-style:normal;font-weight:normal;font-size:27.9388px;line-height:1.25;font-family:sans-serif;fill:#167c1e;fill-opacity:1;stroke:#020000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        x="23.044722"
        y="29.158537"
        id="text1141"><tspan
@@ -92,11 +92,11 @@
          id="tspan1139"
          x="23.044722"
          y="29.158537"
-         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:27.9388px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#167c1e;fill-opacity:1;stroke-width:0.5;stroke:#020000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke;stroke-linejoin:round;stroke-linecap:round"><tspan
-   style="fill:#000000;stroke:#020000;stroke-opacity:1;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke;stroke-linejoin:round;stroke-linecap:round"
+         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:27.9388px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#167c1e;fill-opacity:1;stroke:#020000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+   style="fill:#000000;stroke:#020000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
    id="tspan10001">Tu</tspan>remesa.net</tspan></text>
     <rect
-       style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.99196;stroke:none;stroke-opacity:1"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99196;stroke-opacity:1"
        id="rect10915"
        width="184.05814"
        height="1.5056722"
@@ -137,15 +137,15 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="28.955439"
-       y="44.276993"
+       style="font-style:normal;font-weight:normal;font-size:15.8899px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.595872;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="25.249496"
+       y="52.733772"
        id="text28898"
-       transform="matrix(1.0058919,-0.00355596,-0.10461849,0.99451245,0,0)"><tspan
+       transform="matrix(1.1987664,-0.00298383,-0.12467854,0.83450122,0,0)"><tspan
          sodipodi:role="line"
          id="tspan28896"
-         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:13.3333px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Semi-Bold Italic';fill:#000000;stroke-width:0.5;stroke:none;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-         x="28.955439"
-         y="44.276993">Envío de dinero a Venezuela</tspan></text>
+         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15.8899px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Semi-Bold Italic';fill:#000000;stroke:none;stroke-width:0.595872;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="25.249496"
+         y="52.733772">Tu Casa de Cambio.</tspan></text>
   </g>
 </svg>
