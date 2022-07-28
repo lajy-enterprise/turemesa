@@ -230,3 +230,10 @@ svg {
         content:url("../img/slider/movil/7.jpg");
     }
 }
+.transparente{
+    background-color: #147146cf !important;
+}
+
+.menu{
+    transition: all 1s linear;
+}

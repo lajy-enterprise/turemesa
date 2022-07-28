@@ -73,7 +73,7 @@
     </header>
 
     <section class="container-fluid text-dark p-0" >
-      <nav class="container-fluid navbar navbar-expand-lg navbar-secondary pt-md-2 px-0" aria-label="Main navigation">
+      <nav class="container-fluid navbar navbar-expand-lg navbar-secondary pt-md-2 px-0 menu" aria-label="Main navigation">
         <div class="container bg-success bg-gradient mt-0 mt-md-3 px-2">
           <a class="navbar-link p-0 my-0 bg-light" href="index.html#info">
             <img src="assets/img/logos/logoDeTuRemesa.svg" style="height: 50px;" class="p-0 my-0" alt="">
@@ -156,14 +156,14 @@
                 </a>
               </li>
               <li class="nav-item my-auto my-md-0 dropdown">
-                <a class="nav-link h-100 dropdown-toggle small px-4" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Recargas<br class="d-none d-lg-block">de Saldo</a>
-                <ul class="dropdown-menu text-center" aria-labelledby="dropdown01">
-                  <li><a class="dropdown-item small" href="recarga-de-saldo-payoneer.html#info">Saldo Payoneer<br>Compra/Venta</a></li>
-                  <li><a class="dropdown-item small" href="recarga-de-saldo-paypal.html#info">Saldo PayPal<br>Compra/Venta</a></li>
-                  <li><a class="dropdown-item small" href="recarga-de-saldo-zelle.html#info">Saldo Zelle<br>Compra/Venta</a></li>
-                  <li><a class="dropdown-item small" href="recarga-de-saldo-binance.html#info">Saldo Binance<br>Compra/Venta</a></li>
-                  <li><a class="dropdown-item small" href="recarga-de-saldo-airtm.html#info">Saldo AirTm<br>Compra/Venta</a></li>
-                  <li><a class="dropdown-item small" href="recarga-de-saldo-zinli.html#info">Saldo Zinli<br>Compra/Venta</a></li>
+                <a class="nav-link h-100 dropdown-toggle small px-4" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Recargas <br class="d-none d-lg-block">de Saldo</a>
+                <ul class="dropdown-menu text-center bg-transparent text-white" aria-labelledby="dropdown01">
+                  <li><a class="dropdown-item small nav-link" href="recarga-de-saldo-payoneer.html#info">Saldo Payoneer <br class="d-none d-lg-block">Compra/Venta</a></li>
+                  <li><a class="dropdown-item small nav-link" href="recarga-de-saldo-paypal.html#info">Saldo PayPal <br class="d-none d-lg-block">Compra/Venta</a></li>
+                  <li><a class="dropdown-item small nav-link" href="recarga-de-saldo-zelle.html#info">Saldo Zelle <br class="d-none d-lg-block">Compra/Venta</a></li>
+                  <li><a class="dropdown-item small nav-link" href="recarga-de-saldo-binance.html#info">Saldo Binance <br class="d-none d-lg-block">Compra/Venta</a></li>
+                  <li><a class="dropdown-item small nav-link" href="recarga-de-saldo-airtm.html#info">Saldo AirTm <br class="d-none d-lg-block">Compra/Venta</a></li>
+                  <li><a class="dropdown-item small nav-link" href="recarga-de-saldo-zinli.html#info">Saldo Zinli <br class="d-none d-lg-block">Compra/Venta</a></li>
                 </ul>
               </li>
             </ul>
@@ -1075,6 +1075,36 @@
       });
       $(function() {
           $('#smartwizard2').smartWizard({selected: 0, theme: 'dots', justified: true});
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var altura = $('.menu').offset().top;
+        
+        $(window).on('scroll', function(){
+          if ( $(window).scrollTop() > altura ){
+            $('.menu').addClass('fixed-top');
+            $('.menu').addClass('pt-0');
+            $('.menu > div').addClass('transparente');
+            $('.menu > div').addClass('shadow');
+            $('.menu > div').addClass('container-fluid');
+            $('.menu > div').removeClass('container');
+            $('.menu').removeClass('pt-md-2');
+            $('.menu > div').removeClass('bg-success');
+            $('.menu > div').removeClass('mt-md-3');
+          } else {
+            $('.menu').removeClass('fixed-top');
+            $('.menu').removeClass('pt-0');
+            $('.menu > div').removeClass('transparente');
+            $('.menu > div').removeClass('shadow');
+            $('.menu > div').removeClass('container-fluid');
+            $('.menu > div').addClass('container');
+            $('.menu').addClass('pt-md-2');
+            $('.menu > div').addClass('bg-success');
+            $('.menu > div').addClass('mt-md-3');
+          }
+        });
+
       });
     </script>
   </body>
