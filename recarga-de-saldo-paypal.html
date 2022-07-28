@@ -157,7 +157,7 @@
               </li>
               <li class="nav-item my-auto my-md-0 dropdown">
                 <a class="nav-link h-100 dropdown-toggle small px-4" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Recargas <br class="d-none d-lg-block">de Saldo</a>
-                <ul class="dropdown-menu text-center bg-transparent text-white" aria-labelledby="dropdown01">
+                <ul class="dropdown-menu text-center bg-success text-white" aria-labelledby="dropdown01">
                   <li><a class="dropdown-item small nav-link" href="recarga-de-saldo-payoneer.html#info">Saldo Payoneer <br class="d-none d-lg-block">Compra/Venta</a></li>
                   <li><a class="dropdown-item small nav-link" href="recarga-de-saldo-paypal.html#info">Saldo PayPal <br class="d-none d-lg-block">Compra/Venta</a></li>
                   <li><a class="dropdown-item small nav-link" href="recarga-de-saldo-zelle.html#info">Saldo Zelle <br class="d-none d-lg-block">Compra/Venta</a></li>
@@ -1387,6 +1387,9 @@
             $('.menu').removeClass('pt-md-2');
             $('.menu > div').removeClass('bg-success');
             $('.menu > div').removeClass('mt-md-3');
+            $('.menu > div > div > ul > .dropdown > ul').removeClass('bg-success');
+            $('.menu > div > div > ul > .dropdown > ul').addClass('bg-transparent');
+
           } else {
             $('.menu').removeClass('fixed-top');
             $('.menu').removeClass('pt-0');
@@ -1397,6 +1400,8 @@
             $('.menu').addClass('pt-md-2');
             $('.menu > div').addClass('bg-success');
             $('.menu > div').addClass('mt-md-3');
+            $('.menu > div > div > ul > .dropdown > ul').addClass('bg-success');
+            $('.menu > div > div > ul > .dropdown > ul').removeClass('bg-transparent');
           }
         });
 
