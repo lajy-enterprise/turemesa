@@ -237,3 +237,6 @@ svg {
 .menu{
     transition: all 1s linear;
 }
+.menu > div{
+    transition: all 1s linear;
+}
