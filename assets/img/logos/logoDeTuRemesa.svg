@@ -9,6 +9,9 @@
    viewBox="0 0 212 50"
    sodipodi:docname="logoDeTuRemesa.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="/home/lajy/Documentos/html/turemesa/assets/img/logos/logoDeTuRemesa.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -70,7 +73,7 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="1.9976415"
-     inkscape:cx="74.087368"
+     inkscape:cx="88.103897"
      inkscape:cy="33.789847"
      inkscape:window-width="1366"
      inkscape:window-height="708"
@@ -137,15 +140,15 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:15.8899px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.595872;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="25.249496"
-       y="52.733772"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.9415px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.560309;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="26.18712"
+       y="49.595207"
        id="text28898"
-       transform="matrix(1.1987664,-0.00298383,-0.12467854,0.83450122,0,0)"><tspan
+       transform="matrix(1.1272205,-0.00317322,-0.11723736,0.88746787,0,0)"><tspan
          sodipodi:role="line"
          id="tspan28896"
-         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15.8899px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Semi-Bold Italic';fill:#000000;stroke:none;stroke-width:0.595872;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="25.249496"
-         y="52.733772">Tu Casa de Cambio.</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.9415px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:0.560309;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="26.18712"
+         y="49.595207">Tu Casa de Cambio.</tspan></text>
   </g>
 </svg>
