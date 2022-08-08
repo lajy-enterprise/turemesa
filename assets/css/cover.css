@@ -131,7 +131,7 @@ body {
         height: 475px !important;
    }
    .section-contain {
-        height: 475px !important;
+        height: auto !important;
     }
    .section-cover-lg {
         height: auto !important;
