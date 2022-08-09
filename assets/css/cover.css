@@ -12,7 +12,7 @@
 }
 
 .nav-link {
-  color: #00ff9f;
+  color: #ffffff;
 }
 
 .nav-link:hover,
@@ -145,7 +145,14 @@ body {
     max-width: auto;
 }
 
+/*#menucito{
+    display: flex;
+}*/
+
 @media (min-width: 992px) {
+    /*#menucito{
+        display: none;
+    }*/
     .angosto{
         max-width: 133px;
     }
