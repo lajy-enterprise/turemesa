@@ -145,14 +145,14 @@ body {
     max-width: auto;
 }
 
-/*#menucito{
-    display: flex;
-}*/
+.bg-cambiante{
+    background-color: #026638;
+}
 
 @media (min-width: 992px) {
-    /*#menucito{
-        display: none;
-    }*/
+    .bg-cambiante{
+        background-color: white;
+    }
     .angosto{
         max-width: 133px;
     }
